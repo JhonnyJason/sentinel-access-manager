@@ -17,6 +17,15 @@ importers:
       livescript:
         specifier: ^1.6.0
         version: 1.6.0
+      memory-decay:
+        specifier: ^0.0.3
+        version: 0.0.3
+      mustache:
+        specifier: ^4.2.0
+        version: 4.2.0
+      nodemailer:
+        specifier: ^7.0.10
+        version: 7.0.10
       npm-check-updates:
         specifier: ^19.1.2
         version: 19.1.2
@@ -1165,6 +1174,9 @@ packages:
   memoizee@0.3.10:
     resolution: {integrity: sha512-LLzVUuWwGBKK188spgOK/ukrp5zvd9JGsiLDH41pH9vt5jvhZfsu5pxDuAnYAMG8YEGce72KO07sSBy9KkvOfw==}
 
+  memory-decay@0.0.3:
+    resolution: {integrity: sha512-mghbkKPP015rsE2AOvDwaiysFG8jMiMUhrFKlkXWjJPOGOAYUyJv4osXX6oClWgj5qWUKo936oZGB4yHLlK5Tw==}
+
   memorystream@0.3.1:
     resolution: {integrity: sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==}
     engines: {node: '>= 0.10.0'}
@@ -1236,6 +1248,10 @@ packages:
 
   node-releases@2.0.25:
     resolution: {integrity: sha512-4auku8B/vw5psvTiiN9j1dAOsXvMoGqJuKJcR+dTdqiXEK20mMTk1UEo3HS16LeGQsVG6+qKTPM9u/qQ2LqATA==}
+
+  nodemailer@7.0.10:
+    resolution: {integrity: sha512-Us/Se1WtT0ylXgNFfyFSx4LElllVLJXQjWi2Xz17xWw7amDKO2MLtFnVp1WACy7GkVGs+oBlRopVNUzlrGSw1w==}
+    engines: {node: '>=6.0.0'}
 
   normalize-package-data@2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -3246,6 +3262,8 @@ snapshots:
       next-tick: 0.2.2
       timers-ext: 0.1.8
 
+  memory-decay@0.0.3: {}
+
   memorystream@0.3.1: {}
 
   meow@10.1.5:
@@ -3318,6 +3336,8 @@ snapshots:
       whatwg-url: 5.0.0
 
   node-releases@2.0.25: {}
+
+  nodemailer@7.0.10: {}
 
   normalize-package-data@2.5.0:
     dependencies:
