@@ -38,6 +38,9 @@ importers:
       thingy-allmodules-sync:
         specifier: ^0.2.0
         version: 0.2.0
+      thingy-byte-utils:
+        specifier: ^0.0.8
+        version: 0.0.8
       thingy-crypto-node:
         specifier: ^0.0.2
         version: 0.0.2
