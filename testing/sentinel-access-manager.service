@@ -1,0 +1,15 @@
+[Unit]
+Description=tested service :-)
+
+[Service]
+User=services
+Group=services
+
+ExecStart=/usr/bin/node /opt/void/sentinel-access-manager/service.js
+WorkingDirectory=/srv/srvcs/sentinel-access-manager/
+
+Environment=SOCKETMODE=true
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

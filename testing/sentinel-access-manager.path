@@ -2,8 +2,8 @@
 Description=Path Unit to restart tested service on file-change :-)
 
 [Path]
-PathChanged=/home/lenny/thingies/sentinel-access-manager/output/service.js
-Unit=restart-tested.service
+PathChanged=/opt/void/sentinel-access-manager/service.js
+Unit=restart-sentinel-access-manager.service
 
 
 [Install]

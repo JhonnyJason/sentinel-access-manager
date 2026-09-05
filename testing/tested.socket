@@ -1,5 +1,0 @@
-[Socket]
-ListenStream=/run/tested.sk
-
-[Install]
-WantedBy=sockets.target

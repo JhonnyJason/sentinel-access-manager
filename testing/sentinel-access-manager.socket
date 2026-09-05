@@ -1,0 +1,5 @@
+[Socket]
+ListenStream=/run/sentinel-access-manager.sk
+
+[Install]
+WantedBy=sockets.target
