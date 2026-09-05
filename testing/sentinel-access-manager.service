@@ -1,5 +1,8 @@
 [Unit]
-Description=tested service :-)
+Description=Tested sentinel-access-manager service :-)
+
+Requires=sentinel-access-manager.socket
+After=sentinel-access-manager.socket
 
 [Service]
 User=services
